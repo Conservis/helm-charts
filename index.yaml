@@ -1,0 +1,48 @@
+apiVersion: v1
+entries:
+  hello-world:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2020-06-16T21:15:46.020967662Z"
+    description: Hello world app for Kubernetes with request debug info
+    digest: 4523a75be47ca229c1306a8f66b960a66cc6e29cdd7c81eb645aa63d83b9b8a1
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/Conservis/helm-charts/releases/download/hello-world-1.0.0/hello-world-1.0.0.tgz
+    version: 1.0.0
+  httpbin:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-06-16T21:15:46.185613805Z"
+    description: httpbin.org for Kubernetes
+    digest: 9ee1090556e6eb62c504d481353ea63827c027d7a4af1f8e395d3a876fbdce06
+    name: httpbin
+    type: application
+    urls:
+    - https://github.com/Conservis/helm-charts/releases/download/httpbin-1.0.0/httpbin-1.0.0.tgz
+    version: 1.0.0
+  kube-asg-node-drainer:
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2020-06-16T21:15:46.354610557Z"
+    description: AWS node drainer for ASG spanning over multiple AZs - a workaround
+      for a common pitfall https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler/cloudprovider/aws#common-notes-and-gotchas.
+      Based on `kubectl rollout` CLI. Another option would be https://github.com/aws-samples/amazon-k8s-node-drainer.
+    digest: 90ac9c7226c0bf2a0470d7c33ab48d72d9905aca0f951c82398ae0b1a0f57b8c
+    name: kube-asg-node-drainer
+    urls:
+    - https://github.com/Conservis/helm-charts/releases/download/kube-asg-node-drainer-1.0.0/kube-asg-node-drainer-1.0.0.tgz
+    version: 1.0.0
+  redis-commander:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2020-06-16T21:15:46.51391059Z"
+    description: redis-commander
+    digest: 98a28f1513c0b447a518db17598a8e46a08f3247791c53db34e09fee259208bc
+    name: redis-commander
+    type: application
+    urls:
+    - https://github.com/Conservis/helm-charts/releases/download/redis-commander-1.0.0/redis-commander-1.0.0.tgz
+    version: 1.0.0
+generated: "2020-06-16T21:15:45.83480265Z"
