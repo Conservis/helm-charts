@@ -4,7 +4,7 @@ Welcome to the Conservis charts repository. All charts are in the [charts](./cha
 
 ## Adding the chart Repository
 
-`helm repo add conservis https://conservis.github.io/charts`
+`helm repo add conservis https://conservis.github.io/helm-charts`
 
 ## Contributing
 
@@ -21,7 +21,7 @@ GitHub Pages points to the `gh-pages` branch so anything pushed to that branch w
 ## Process to add a chart to the repository
 
 1. Create a branch or fork for your new chart
-1. Initialize new chart in the `charts` directory with `helm create mychart` or by copying in your work from outside
+1. Initialize new chart with `make create name=mychart` or by copying in your work from outside
 1. After chart development is done, run (at minimum) `helm lint mychart/` to validate yaml and templates
 1. Don't forget to bump your chart version (if needed)
 1. Create a pull request with the new chart or updates

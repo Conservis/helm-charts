@@ -36,7 +36,8 @@ rules:
       - watch
       - patch
   - apiGroups:
-      - "apps"
+      - "apps" # k8s 1.16+
+      - "extensions"
     resources:
       - daemonsets
       - replicasets
@@ -45,7 +46,8 @@ rules:
       - get
       - list
   - apiGroups:
-      - "apps"
+      - "apps" # k8s 1.16+
+      - "extensions"
     resources:
       - deployments
     verbs:
