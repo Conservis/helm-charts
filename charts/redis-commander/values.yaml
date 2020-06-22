@@ -53,8 +53,8 @@ ingress:
   #    hosts:
   #      - chart-example.local
 
-env: {}
-  #REDIS_PORT
+env:
+  REDIS_PORT: 6379
   #REDIS_HOST
   #REDIS_SOCKET
   #REDIS_TLS
