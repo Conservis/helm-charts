@@ -57,6 +57,16 @@ entries:
   redis-commander:
   - apiVersion: v2
     appVersion: latest
+    created: "2020-06-22T18:32:34.143838682Z"
+    description: redis-commander
+    digest: 4dc0c18323cc67307b3a4a162c78bde3a5716c9f06cf803f0d9cb7d4ed4e8bf3
+    name: redis-commander
+    type: application
+    urls:
+    - https://github.com/Conservis/helm-charts/releases/download/redis-commander-1.0.2/redis-commander-1.0.2.tgz
+    version: 1.0.2
+  - apiVersion: v2
+    appVersion: latest
     created: "2020-06-16T21:55:25.603869314Z"
     description: redis-commander
     digest: eabaf8025d08f6856d87ace98162ebab52816b0e60f95372a4aaa657c7863589
