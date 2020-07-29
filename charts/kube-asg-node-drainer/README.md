@@ -1,7 +1,7 @@
 ## AWS ASG rebalancing node drainer
 Helm chart for https://github.com/conservis/kube-asg-node-drainer.
 
-### 4. Install
+### Install
 
 `kube-asg-node-drainer` release must be installed to `kube-system` namespace: pods with system-node-critical priorityClass are not permitted in any other space.
 
@@ -17,12 +17,6 @@ helm install --namespace kube-system --name kube-asg-node-drainer --namespace ku
 ## Prerequisites
 
 - Kubernetes 1.12+ with Beta APIs enabled
-
-### With GCP IAM enabled
-
-All the [Prerequisites](#Prerequisites) should be in place, plus:
-
-- [Fulfill GCP IAM requirements](https://github.com/travelaudience/kubernetes-nexus/blob/master/docs/admin/configuring-nexus-proxy.md#pre-requisites)
 
 
 ## Installing the Chart
