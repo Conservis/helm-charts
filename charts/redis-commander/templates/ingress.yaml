@@ -29,8 +29,17 @@ spec:
       http:
         paths:
           - path: {{ $ingressPath }}
+            {{ if $.Capabilities.APIVersions.Has "networking.k8s.io/v1/Ingress" -}}
+            pathType: {{ default "Prefix" $.Values.ingress.pathType }}
+            backend:
+              service:
+                name: {{ $fullName }}
+                port:
+                  number: {{ $svcPort }}
+            {{- else -}}
             backend:
               serviceName: {{ $fullName }}
               servicePort: {{ $svcPort }}
+            {{- end -}}
     {{- end -}}
   {{- end }}
