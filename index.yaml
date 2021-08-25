@@ -3,6 +3,16 @@ entries:
   hello-world:
   - apiVersion: v2
     appVersion: 1.0.0
+    created: "2021-08-25T21:45:27.852334882Z"
+    description: Hello world app for Kubernetes with request debug info
+    digest: 58007fdd4b959bba223b0cf9407e98455148456b886aabfca7a7138129d8c78d
+    name: hello-world
+    type: application
+    urls:
+    - https://github.com/Conservis/helm-charts/releases/download/hello-world-1.1.0/hello-world-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.0.0
     created: "2021-08-25T19:15:32.105363847Z"
     description: Hello world app for Kubernetes with request debug info
     digest: 2b4b52a07a58402a5528b695f07458bcc044b03a805f4d9d7914c29b2f664c60
@@ -32,6 +42,16 @@ entries:
     - https://github.com/Conservis/helm-charts/releases/download/hello-world-1.0.0/hello-world-1.0.0.tgz
     version: 1.0.0
   httpbin:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-08-25T21:45:27.956218363Z"
+    description: httpbin.org for Kubernetes
+    digest: 8faa14da834fe2a4c6290761a5c78a57c1af79d0a58aba92f46eb039c65ac8a1
+    name: httpbin
+    type: application
+    urls:
+    - https://github.com/Conservis/helm-charts/releases/download/httpbin-1.1.0/httpbin-1.1.0.tgz
+    version: 1.1.0
   - apiVersion: v2
     appVersion: latest
     created: "2021-08-25T19:15:32.287099836Z"
@@ -82,6 +102,16 @@ entries:
     - https://github.com/Conservis/helm-charts/releases/download/kube-asg-node-drainer-1.0.0/kube-asg-node-drainer-1.0.0.tgz
     version: 1.0.0
   redis-commander:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2021-08-25T21:45:28.049525625Z"
+    description: redis-commander
+    digest: cae736b4722013fcffa7dd7ec0975759b13711ed24f6c5727bbbfda4628639c6
+    name: redis-commander
+    type: application
+    urls:
+    - https://github.com/Conservis/helm-charts/releases/download/redis-commander-1.1.0/redis-commander-1.1.0.tgz
+    version: 1.1.0
   - apiVersion: v2
     appVersion: latest
     created: "2021-08-25T19:15:32.640186586Z"
