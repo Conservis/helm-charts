@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: rediscommander/redis-commander
+  repository: ghcr.io/joeferner/redis-commander
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
